@@ -1,0 +1,89 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+.container {
+  background-color: rgba(128, 128, 128, 0.366);
+  width: 80%;
+  margin: auto;
+  border-radius: 20px;
+}
+
+.header {
+  text-align: center;
+  font-size: 90px;
+  font-family: "Lobster", cursive;
+}
+.header span {
+  color: red;
+}
+span.mar1 {
+  color: white;
+}
+span.mar1:hover {
+  color: red;
+  text-shadow: 5px 5px 10px white;
+}
+
+.img-box {
+  text-align: center;
+}
+img {
+  width: 400px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 500px red;
+}
+img:hover {
+  transform: scale(1.5);
+  transition: 0.5s;
+}
+.about {
+  text-align: justify;
+  width: 80%;
+  height: 200px;
+  margin: auto;
+  margin-top: 20px;
+  font-size: 2rem;
+  text-indent: 50px;
+  height: 200px;
+  overflow: auto;
+}
+.about::-webkit-scrollbar {
+  display: none;
+}
+
+h2.header {
+  text-align: left;
+  margin-left: 10%;
+  font-size: 30px;
+  color: red;
+}
+ul {
+  margin: auto;
+  width: 80%;
+}
+
+li {
+  font-size: 24px;
+  line-height: 24px;
+}
+#footer {
+  text-align: center;
+  font-size: 32px;
+  margin: 32px 0;
+  padding: 2rem;
+}
+a {
+  border: 2px solid darkorange;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  padding: 16px;
+}
+p #footer a:hover {
+  transition: 0.8s;
+  background-color: gray;
+  transform: scale(1.5);
+}
