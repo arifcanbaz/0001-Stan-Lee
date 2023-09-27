@@ -82,8 +82,9 @@ a {
   text-decoration: none;
   padding: 16px;
 }
-p #footer a:hover {
+p#footer a:hover {
   transition: 0.8s;
-  background-color: gray;
+  color: red;
   transform: scale(1.5);
+  background-color: rgba(128, 128, 128, 0.366);
 }
