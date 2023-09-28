@@ -1,9 +1,10 @@
 body {
   background-image: url(https://getwallpapers.com/wallpaper/full/9/3/f/1004065-widescreen-spiderman-logo-wallpaper-1920x1080-for-desktop.jpg);
   color: white;
-  background-position: 100%;
+
   background-repeat: no-repeat;
   background-color: black;
+  background-position: center center;
 }
 
 .container {
