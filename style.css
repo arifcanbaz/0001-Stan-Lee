@@ -73,6 +73,7 @@ h2.header {
 ul {
   margin: auto;
   width: 80%;
+  list-style-type: circle;
 }
 
 li {
