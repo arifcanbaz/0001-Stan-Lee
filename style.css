@@ -19,6 +19,13 @@ body {
   font-size: 90px;
   font-family: "Lobster", cursive;
 }
+.header.marvel{
+  margin-top: 32px;
+
+  text-align: center;
+}
+
+
 .header span {
   color: red;
 }
